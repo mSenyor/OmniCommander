@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="@color/grandMA2gray"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/grand_ma2_land_button_margin"
+            android:text="Fix"
+            android:background="@drawable/grand_ma2_button"
+            android:textColor="@color/grandMA2yellow"
+            android:textAllCaps="false"
+            android:id="@+id/grand_ma2_fix_button" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/grand_ma2_land_button_margin"
+            android:text="Select"
+            android:background="@drawable/grand_ma2_button"
+            android:textColor="@color/grandMA2yellow"
+            android:textAllCaps="false"
+            android:id="@+id/grand_ma2_select_button"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/grand_ma2_land_button_margin"
+            android:text="Off"
+            android:background="@drawable/grand_ma2_button"
+            android:textColor="@color/grandMA2yellow"
+            android:textAllCaps="false"
+            android:id="@+id/grand_ma2_off_button"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/grand_ma2_land_button_margin"
+            android:text="Temp"
+            android:background="@drawable/grand_ma2_button"
+            android:textColor="@color/grandMA2yellow"
+            android:textAllCaps="false"
+            android:id="@+id/grand_ma2_temp_button"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/grand_ma2_land_button_margin"
+            android:text="Top"
+            android:background="@drawable/grand_ma2_button"
+            android:textColor="@color/grandMA2yellow"
+            android:textAllCaps="false"
+            android:id="@+id/grand_ma2_top_button"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/grand_ma2_land_button_margin"
+            android:text="On"
+            android:background="@drawable/grand_ma2_button"
+            android:textColor="@color/grandMA2yellow"
+            android:textAllCaps="false"
+            android:id="@+id/grand_ma2_on_button"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/grand_ma2_land_button_margin"
+            android:text="@string/grand_ma2_stepback_label"
+            android:background="@drawable/grand_ma2_button"
+            android:textColor="@color/grandMA2yellow"
+            android:textAllCaps="false"
+            android:id="@+id/grand_ma2_stepback_button"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/grand_ma2_land_button_margin"
+            android:text="Learn"
+            android:background="@drawable/grand_ma2_button"
+            android:textColor="@color/grandMA2yellow"
+            android:textAllCaps="false"
+            android:id="@+id/grand_ma2_learn_button"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/grand_ma2_land_button_margin"
+            android:text=">>>"
+            android:background="@drawable/grand_ma2_button"
+            android:textColor="@color/grandMA2yellow"
+            android:textAllCaps="false"
+            android:id="@+id/grand_ma2_stepforward_button"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/grand_ma2_land_button_margin"
+            android:text="Go -"
+            android:background="@drawable/grand_ma2_button"
+            android:textColor="@color/grandMA2yellow"
+            android:textAllCaps="false"
+            android:id="@+id/grand_ma2_gominus_button"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/grand_ma2_land_button_margin"
+            android:text="Pause"
+            android:background="@drawable/grand_ma2_button"
+            android:textColor="@color/grandMA2yellow"
+            android:textAllCaps="false"
+            android:id="@+id/grand_ma2_pause_button"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/grand_ma2_land_button_margin"
+            android:text="Go +"
+            android:background="@drawable/grand_ma2_button"
+            android:textColor="@color/grandMA2yellow"
+            android:textAllCaps="false"
+            android:id="@+id/grand_ma2_goplus_button"/>
+    </LinearLayout>
+
+
+</LinearLayout>

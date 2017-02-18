@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/grandMA2gray"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/grand_ma2_land_button_margin"
+            android:text="Time"
+            android:background="@drawable/grand_ma2_button"
+            android:textColor="@color/grandMA2yellow"
+            android:textAllCaps="false"
+            android:id="@+id/grand_ma2_time_button" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/grand_ma2_land_button_margin"
+            android:text="Esc"
+            android:background="@drawable/grand_ma2_button"
+            android:textColor="@color/grandMA2yellow"
+            android:textAllCaps="false"
+            android:id="@+id/grand_ma2_esc_button"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/grand_ma2_land_button_margin"
+            android:text="Edit"
+            android:background="@drawable/grand_ma2_button"
+            android:textColor="@color/grandMA2yellow"
+            android:textAllCaps="false"
+            android:id="@+id/grand_ma2_edit_button"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/grand_ma2_land_button_margin"
+            android:text="Oops"
+            android:background="@drawable/grand_ma2_button"
+            android:textColor="@color/grandMA2yellow"
+            android:textAllCaps="false"
+            android:id="@+id/grand_ma2_oops_button"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/grand_ma2_land_button_margin"
+            android:text="Update"
+            android:background="@drawable/grand_ma2_button"
+            android:textColor="@color/grandMA2yellow"
+            android:textAllCaps="false"
+            android:id="@+id/grand_ma2_update_button"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/grand_ma2_land_button_margin"
+            android:text="Clear"
+            android:background="@drawable/grand_ma2_button"
+            android:textColor="@color/grandMA2yellow"
+            android:textAllCaps="false"
+            android:id="@+id/grand_ma2_clear_button"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/grand_ma2_land_button_margin"
+            android:text="Store"
+            android:background="@drawable/grand_ma2_button"
+            android:textColor="@color/grandMA2yellow"
+            android:textAllCaps="false"
+            android:id="@+id/grand_ma2_store_button"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:visibility="invisible"
+            android:enabled="false"
+            android:layout_margin="@dimen/grand_ma2_land_button_margin"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

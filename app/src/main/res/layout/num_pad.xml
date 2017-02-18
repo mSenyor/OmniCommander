@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/grandMA2gray"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/grand_ma2_numpad_margin"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/grand_ma2_numpad_margin"
+            android:text="7"
+            android:background="@drawable/grand_ma2_button"
+            android:textColor="@color/grandMA2yellow"
+            android:textAllCaps="false"
+            android:id="@+id/grand_ma2_7_button" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/grand_ma2_numpad_margin"
+            android:text="8"
+            android:background="@drawable/grand_ma2_button"
+            android:textColor="@color/grandMA2yellow"
+            android:textAllCaps="false"
+            android:id="@+id/grand_ma2_8_button"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/grand_ma2_numpad_margin"
+            android:text="9"
+            android:background="@drawable/grand_ma2_button"
+            android:textColor="@color/grandMA2yellow"
+            android:textAllCaps="false"
+            android:id="@+id/grand_ma2_9_button"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/grand_ma2_numpad_margin"
+            android:text="+"
+            android:background="@drawable/grand_ma2_button"
+            android:textColor="@color/grandMA2yellow"
+            android:textAllCaps="false"
+            android:id="@+id/grand_ma2_plus_button"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/grand_ma2_numpad_margin"
+            android:text="4"
+            android:background="@drawable/grand_ma2_button"
+            android:textColor="@color/grandMA2yellow"
+            android:textAllCaps="false"
+            android:id="@+id/grand_ma2_4_button" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/grand_ma2_numpad_margin"
+            android:text="5"
+            android:background="@drawable/grand_ma2_button"
+            android:textColor="@color/grandMA2yellow"
+            android:textAllCaps="false"
+            android:id="@+id/grand_ma2_5_button"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/grand_ma2_numpad_margin"
+            android:text="6"
+            android:background="@drawable/grand_ma2_button"
+            android:textColor="@color/grandMA2yellow"
+            android:textAllCaps="false"
+            android:id="@+id/grand_ma2_6_button"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/grand_ma2_numpad_margin"
+            android:text="Thru"
+            android:background="@drawable/grand_ma2_button"
+            android:textColor="@color/grandMA2yellow"
+            android:textAllCaps="false"
+            android:id="@+id/grand_ma2_thru_button"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/grand_ma2_numpad_margin"
+            android:text="1"
+            android:background="@drawable/grand_ma2_button"
+            android:textColor="@color/grandMA2yellow"
+            android:textAllCaps="false"
+            android:id="@+id/grand_ma2_1_button" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/grand_ma2_numpad_margin"
+            android:text="2"
+            android:background="@drawable/grand_ma2_button"
+            android:textColor="@color/grandMA2yellow"
+            android:textAllCaps="false"
+            android:id="@+id/grand_ma2_2_button"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/grand_ma2_numpad_margin"
+            android:text="3"
+            android:background="@drawable/grand_ma2_button"
+            android:textColor="@color/grandMA2yellow"
+            android:textAllCaps="false"
+            android:id="@+id/grand_ma2_3_button"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/grand_ma2_numpad_margin"
+            android:text="-"
+            android:background="@drawable/grand_ma2_button"
+            android:textColor="@color/grandMA2yellow"
+            android:textAllCaps="false"
+            android:id="@+id/grand_ma2_minus_button"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/grand_ma2_numpad_margin"
+            android:text="0"
+            android:background="@drawable/grand_ma2_button"
+            android:textColor="@color/grandMA2yellow"
+            android:textAllCaps="false"
+            android:id="@+id/grand_ma2_0_button" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/grand_ma2_numpad_margin"
+            android:text="."
+            android:background="@drawable/grand_ma2_button"
+            android:textColor="@color/grandMA2yellow"
+            android:textAllCaps="false"
+            android:id="@+id/grand_ma2_dot_button"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/grand_ma2_numpad_margin"
+            android:text="If"
+            android:background="@drawable/grand_ma2_button"
+            android:textColor="@color/grandMA2yellow"
+            android:textAllCaps="false"
+            android:id="@+id/grand_ma2_if_button"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/grand_ma2_numpad_margin"
+            android:text="At"
+            android:background="@drawable/grand_ma2_button"
+            android:textColor="@color/grandMA2yellow"
+            android:textAllCaps="false"
+            android:id="@+id/grand_ma2_at_button"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:layout_margin="@dimen/grand_ma2_numpad_margin"
+            android:text="MA"
+            android:background="@drawable/grand_ma2_button"
+            android:textColor="@color/grandMA2yellow"
+            android:textAllCaps="false"
+            android:id="@+id/grand_ma2_ma_button" />
+
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:layout_margin="@dimen/grand_ma2_numpad_margin"
+            android:visibility="invisible"
+            android:enabled="false"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="9"
+            android:layout_margin="@dimen/grand_ma2_numpad_margin"
+            android:text="Please"
+            android:background="@drawable/grand_ma2_button"
+            android:textColor="@color/grandMA2yellow"
+            android:textAllCaps="false"
+            android:id="@+id/grand_ma2_please_button"/>
+    </LinearLayout>
+
+</LinearLayout>
+

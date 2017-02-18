@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="grandMA2lightGray">#292929</color>
+    <color name="grandMA2gray">#1a1a1a</color>
+    <color name="grandMA2darkerGrey">#0b0b0b</color>
+    <color name="grandMA2yellow">#d2970a</color>
+    <color name="withButtonLabel">#ffffff</color>
+</resources>

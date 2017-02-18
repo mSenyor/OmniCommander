@@ -1,0 +1,41 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+    <EditTextPreference
+        android:defaultValue="@string/pref_default_server_ip"
+        android:key="ip_text"
+        android:maxLines="1"
+        android:hint="192.168.0.xxx or 10.0.0.xxx"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:inputType="number"
+        android:digits="0123456789."
+        android:title="@string/pref_title_server_ip"
+        android:id="@+id/ip_pref_edit"/>
+
+    <EditTextPreference
+        android:defaultValue="@string/pref_default_server_port"
+        android:key="port_text"
+        android:maxLines="1"
+        android:numeric="integer"
+
+        android:hint="Server accepts 1000 to 9999"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_server_port" />
+
+    <EditTextPreference
+        android:defaultValue="@string/pref_default_server_password"
+        android:key="password_text"
+        android:hint="Can be left blank"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_server_password" />
+
+    <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it. -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+
+</PreferenceScreen>

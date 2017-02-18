@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_marginRight="@dimen/grand_ma2_land_button_margin"
+    android:orientation="vertical">
+    <Button
+        android:layout_width="wrap_content"
+        android:textColor="@color/withButtonLabel"
+        android:background="@drawable/grand_ma2_button"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textAllCaps="false"
+        android:text="Go +"
+        android:id="@+id/go_pad_button"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:textColor="@color/withButtonLabel"
+        android:background="@drawable/grand_ma2_button"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+        android:textAllCaps="false"
+        android:text="Fixture"
+        android:id="@+id/object_pad_button"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/withButtonLabel"
+        android:background="@drawable/grand_ma2_button"
+        android:layout_height="0dp"
+        android:textAllCaps="false"
+        android:text="Assign"
+        android:id="@+id/assign_pad_button"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/withButtonLabel"
+        android:background="@drawable/grand_ma2_button"
+        android:layout_height="0dp"
+        android:textAllCaps="false"
+        android:text="Store"
+        android:id="@+id/store_pad_button"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/withButtonLabel"
+        android:background="@drawable/grand_ma2_button"
+        android:layout_height="0dp"
+        android:textAllCaps="false"
+        android:text="Num"
+        android:id="@+id/num_pad_button"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/withButtonLabel"
+        android:background="@drawable/grand_ma2_button"
+        android:layout_height="0dp"
+        android:textAllCaps="false"
+        android:text="Highlight"
+        android:id="@+id/next_pad_button"/>
+</LinearLayout>
